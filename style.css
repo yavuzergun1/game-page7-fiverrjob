@@ -137,7 +137,7 @@ header .back {
   border-radius: 15px;
 }
 .left-item-blue-container img, .left-item-container img {
-  width: 70%;
+  width: 60%;
 }
 
 .left-item-container {
@@ -161,7 +161,7 @@ header .back {
   justify-content: space-around;
   align-items: center;
   color: white;
-  font-family: "Futura";
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
 .body-first img, .body-fourth img, .body-third img, .body-second img {
@@ -204,10 +204,10 @@ header .back {
   position: absolute;
 }
 .buttons img:nth-child(2) {
-  left: 60px;
+  left: 80px;
 }
 .buttons img:nth-child(3) {
-  left: 120px;
+  left: 160px;
 }
 
 @media (max-width: 945px) {
@@ -241,9 +241,8 @@ header .back {
     padding-top: 5px;
     justify-content: center;
   }
-  .container {
-    height: 400px;
-    margin-top: 10px;
+  .left-item-blue-container img, .left-item-container img {
+    width: 70%;
   }
 }
 @media (max-width: 945px) and (max-width: 730px) {

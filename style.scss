@@ -127,7 +127,7 @@ header {
     align-items: center;
     border-radius: 15px;
     img{
-        width: 70%;
+        width: 60%;
     }
 }
 .left-item-container{
@@ -151,7 +151,7 @@ header {
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-family: "Futura";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 img{
     width: 20%;
@@ -204,10 +204,10 @@ img{
         position: absolute;
     }
     img:nth-child(2){
-        left: 60px;
+        left: 80px;
     }
     img:nth-child(3){
-        left: 120px;
+        left: 160px;
     }
 }
 @media (max-width: 945px) {
@@ -241,10 +241,12 @@ img{
     padding-top: 5px;
     justify-content: center;
   }
-  .container {
-        height: 400px;
-    margin-top: 10px;
+  .left-item-blue-container{
+     img{
+    width: 70%;
   }
+  }
+
   @media (max-width: 730px) {
     header {
     width: 550px;
@@ -264,6 +266,7 @@ img{
   }
   .left-item-blue-container{
   height: 50px;
+ 
 }
 .body-first{
     height: 40px;
